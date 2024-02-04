@@ -1,11 +1,15 @@
-sort1 uses: Bubble sort
+Times:
 
-How do you know?: It perfoms the quickest in sorted array
+10 simulations: TODO (record time using 0m0.000s format)
+100 simulations: TODO (record time using 0m0.000s format)
+1000 simulations: TODO (record time using 0m0.000s format)
+10000 simulations: TODO (record time using 0m0.000s format)
+100000 simulations: TODO (record time using 0m0.000s format)
+1000000 simulations: TODO (record time using 0m0.000s format)
 
-sort2 uses: Merge sort
+Questions:
 
-How do you know?: It perfoms the quickest in unsorted array
+Which predictions, if any, proved incorrect as you increased the number of simulations?: TODO
 
-sort3 uses: Selection sort
-
-How do you know?: It perfoms the slowest in sorted array and it was similar to bubble sort in unsorted arry
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: TODO
