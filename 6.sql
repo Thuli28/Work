@@ -1,2 +1,3 @@
-SELECT AVG(rating) FROM ratings
-WHERE movie_id IN (SELECT id FROM movies WHERE year = 2012);
+SELECT s. name FROM songs s
+JOIN artists a ON s.artist_id = a.id
+WHERE a.name = "Post Malone";

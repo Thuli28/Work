@@ -1,4 +1,5 @@
-SELECT m.title, r.rating FROM movies m
-JOIN ratings r ON m.id = r.movie_id
-WHERE m. year = 2010
-ORDER BY r.rating DESC, m.title ASC;
+SELECT AVG(s.energy)
+FROM songs s
+JOIN artists a
+ON s.artist_id = a.id
+WHERE a.name = "Drake";

@@ -1,2 +1,2 @@
-SELECT count(*) FROM ratings
-WHERE rating = 10.0;
+SELECT name FROM songs
+WHERE danceability > 0.75 AND energy > 0.75 AND valence > 0.75;
