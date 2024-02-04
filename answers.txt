@@ -1,26 +1,11 @@
-SELECT name FROM songs;
+sort1 uses: Bubble sort
 
-SELECT name FROM songs
-ORDER BY tempo ASC;
+How do you know?: It perfoms the quickest in sorted array
 
-SELECT name FROM songs
-ORDER BY duration_ms DESC
-LIMIT 5;
+sort2 uses: Merge sort
 
-SELECT name FROM songs
-WHERE danceability > 0.75 AND energy > 0.75 AND valance > 0.75;
+How do you know?: It perfoms the quickest in unsorted array
 
-SELECT AVG(energy) FROM songs;
+sort3 uses: Selection sort
 
-SELECT s. name FROM songs s
-JOIN artists a ON s.artist_id = a.id
-WHERE a.name = "Post Malone";
-
-SELECT AVG(s.energy)
-FROM songs s
-JOIN artists a
-ON s.artist_id = a.id
-WHERE a.name = "Drake";
-
-SELECT name FROM songs
-WHERE name LIKE "%feat.%";
+How do you know?: It perfoms the slowest in sorted array and it was similar to bubble sort in unsorted arry
